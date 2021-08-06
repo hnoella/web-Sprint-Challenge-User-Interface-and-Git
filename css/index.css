@@ -309,29 +309,27 @@ footer nav a {
   display: flex;
   margin: 2% 0 2%;
   border: none;
-  border-top: 1px dotted black;
+  border-top: 1.5px dotted black;
   color: #fff;
   background-color: #fff;
-  height: 1px;
   width: 93%;
 }
 button {
   margin: 3% 0;
-  padding: 1%;
+  padding: 1.6%;
   width: 25%;
   border-color: black solid 2px;
   background-color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 0.8rem;
 }
 .dotted-line2 {
   display: flex;
   margin: 2% 0 2%;
   border: none;
-  border-top: 1px dotted black;
+  border-top: 1.5px dotted black;
   color: #fff;
   background-color: #fff;
-  height: 1px;
   width: 95%;
 }
 
