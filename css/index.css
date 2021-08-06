@@ -157,6 +157,11 @@ p {
   margin: 0 auto;
 }
 
+.container-about-page {
+  width: 800px;
+  margin: 0 auto;
+}
+
 /* nav */
 nav {
   display: flex;
@@ -180,6 +185,15 @@ nav a {
 /* bg image*/
 .bgimg {
   background-image: url("../img/jumbo.jpg");
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 4% auto;
+}
+
+.bgimg2 {
+  background-image: url("../img/jumbo-about.png");
   height: 15vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,4 +273,35 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About section*/
+/*main about section*/
+.dotted-line {
+  display: flex;
+  margin: 2% 0 3%;
+  border: none;
+  border-top: 1px dotted black;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5%;
+}
+
+/* strategy and how we work*/
+
+.strategy-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: black solid 2px;
+}
+
+.main {
 }
